@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://install.ahmetozer.org/lemp/pages/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://install.ahmetozer.org/lemp/pages/css/page.css"/>
+    <script src="https://install.ahmetozer.org/lemp/pages/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://install.ahmetozer.org/lemp/pages/js/bootstrap.min.js"></script>
+    <script src="https://install.ahmetozer.org/lemp/pages/js/popper.min.js"></script>
+    <title id="title">ahmetozer.org Server Systems</title>
+  </head>
+    <body class="text-center">
+    <div class="container-fluid">
+      <h1><span class="badge badge-secondary">200</span> OK</h1>
+      <div class="h-25 p-3" >
+        <div class="box">
+          <div class="server">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <span id="sg">Linux</span>
+          <br>
+          <div class="server warning">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <span id="sgw">Web</span>
+          <br>
+          <div class="server error">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <span id="sge">Server</span>
+        </div>
+      </div>
+      <h4 id="site">example.com</h4>
+      <p class="mt-5 mb-3 text-muted">© 2017-2018 <a href="https://ahmetozer.org">ahmetozer.org</a> Server Systems</p>
+    </div>
+  </body>
+  <script>
+  document.getElementById('site').innerHTML = window.location.hostname;
+  console.log(window.location.hostname);
+  </script>
+</html>
